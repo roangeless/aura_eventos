@@ -1,0 +1,26 @@
+/* color de fondo y fuente */
+body{
+    background-color: #a3bbd5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* color del titulo */
+h1{
+    color: #2d4155;
+    font-family:"fuenteexterna";
+}
+/* color de los enlaces */
+a {
+  color: #122233;
+}
+/* cambio de color en los enlaces */
+a:hover{
+    color: rgb(14, 14, 196);
+}
+@font-face {
+        font-family: "fuenteexterna";
+        src: url(../assets/fonts/Revalia-Regular.ttf);
+    }
+
+    p{
+    font-family:"Ancizar serif";
+    }
