@@ -1,18 +1,114 @@
 /* color de fondo y fuente */
 body{
-    background-color: #a3bbd5;
+    background-color: #8968ff;
     font-family: Arial, Helvetica, sans-serif;
 }
-/* color del titulo */
+.container1 {
+    width: 100%;                                  /* Le damos estilo al contenedor  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 15px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: nowrap;
+}
+
+.caja {
+    width: 300px;                                  /* Le damos estilo al elemento del contenedor */
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #196fe0;
+    border: 2px solid black;
+    border-radius: 10%;
+    font-size: 60px;
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 15px;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    flex-wrap: nowrap;
+}
+
+/*.cajon {
+    width: 250px;
+    height: 70px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d9dce0;
+    border: 1px solid black;
+    border-radius: 25%;
+} */
+.cajon2 {
+    width: 1000px;
+    height: auto;
+    white-space: normal;
+    background-color: #b780ff;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 200%;
+}
+.container3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 15px;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.cajon3 {
+    width: 1000px;
+    height: auto;
+    white-space: normal;
+    background-color: #b780ff;;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 200%;
+}
+.container4 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 15px;
+    background-color:rgb(255, 255, 255);
+    font-size: 20px;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+}
+.cajon4 {
+    width: 1000px;
+    height: auto;
+    white-space: normal;
+    background-color: #b780ff;;
+    border: 1px solid black;
+    border-radius: 1%;
+    font-size: 200%;
+}
+ /* color del titulo *
 h1{
     color: #2d4155;
     font-family:"fuenteexterna";
 }
-/* color de los enlaces */
+/* color de los enlaces *
 a {
   color: #122233;
 }
-/* cambio de color en los enlaces */
+/* cambio de color en los enlaces *
 a:hover{
     color: rgb(14, 14, 196);
 }
@@ -23,4 +119,4 @@ a:hover{
 
     p{
     font-family:"Ancizar serif";
-    }
+    }  
